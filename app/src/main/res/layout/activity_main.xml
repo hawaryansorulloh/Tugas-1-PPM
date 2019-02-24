@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/hazard"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:src="@drawable/barbariancoc" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/hazard2"
+            android:layout_width="162dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/barbariancoc2" />
+
+        <LinearLayout
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="gravity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barbarian"
+                android:textSize="35dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attack    Health"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500         3200"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:visibility="visible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Description"
+        android:textSize="24dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A barbarian is a human who is perceived to be either uncivilized or primitive. The designation is usually applied as generalization based on a popular stereotype; barbarians can be any member of a nation judged by some to be less civilized or orderly (such as a tribal society), but may also be part of a certain primitive cultural group (such as nomads) or social class (such as bandits) both within and outside one's own nation. Alternatively, they may instead be admired and romanticised as noble savages. In idiomatic or figurative usage, a barbarian may also be an individual reference to a brutal, cruel, warlike, and insensitive person." />
+</LinearLayout>
